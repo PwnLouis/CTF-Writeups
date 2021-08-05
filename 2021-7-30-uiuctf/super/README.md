@@ -1,8 +1,8 @@
 # UIUCTF - SUPER (18 solves)
 
-> HOT
-Hint 1: Forensics integrity is important... unless you like corrupted binaries
-Hint 2: The file is encrypted with a repeating XOR cipher
+> HOT<br/>
+> Hint 1: Forensics integrity is important... unless you like corrupted binaries<br/>
+> Hint 2: The file is encrypted with a repeating XOR cipher
 
 **Category**: forensics
 
