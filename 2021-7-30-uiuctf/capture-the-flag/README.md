@@ -3,13 +3,12 @@
 > It's always in the place you least expect
 
 **Category**: forensics
-
 **Given**: 
 - N/A
 
 **Requirements**: Python, [pillow](https://pillow.readthedocs.io), [exiftool](https://exiftool.org)
-
 **Solution Files**: [solve.py](solve.py)
+**TL;DR**: Take least significant bit from pixel 1337 onwards to get flag string.
 
 In this case, no files were given, so the file needs to be found first. Thankfully, the title gives it away. :emote_name: is Discord syntax for an emote, so I downloaded the :flag: emote from the competition server.
 

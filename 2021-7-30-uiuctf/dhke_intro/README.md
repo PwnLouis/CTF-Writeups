@@ -3,14 +3,13 @@
 > Small numbers are bad in cryptography. This is why.
 
 **Category**: crypto
-
 **Given**: 
 - [dhkectf_intro.py](handouts/dhkectf_intro.py): full DHKE script
 - [output.txt](handouts/output.txt): encrypted flag
 
 **Requirements**: Python, [pycryptodome](https://pycryptodome.readthedocs.io/en/latest)
-
 **Solution Files**: [solve.py](solve.py)
+**TL;DR**: Bruteforce all possible combination of private keys to decrypt the message.
 
 DHKE, which stands for [Diffie-Hellman key exchange](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange#Cryptographic_explanation), is a widely used protocol for securely exchanging keys over a public channel. Wikipedia's explanation is pretty good for understanding what happens. Basically, two sides generate their own private key. Once we get the private key, messages can be decrypted into plaintext very easily. Typically, it is unfeasable to brute force the private keys, but in the provided encryption script, we can see that the possible values of `a` & `b` are not that large:
 

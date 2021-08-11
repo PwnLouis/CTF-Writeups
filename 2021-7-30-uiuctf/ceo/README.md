@@ -3,13 +3,12 @@
 > You just wirelessly captured the handshake of the CEO of a multi-million dollar company! Use your password cracking skills to get the password! Wrap the password in the flag format. E.g: uiuctf{password}
 
 **Category**: misc
-
 **Given**: 
 - [megacorp-01.cap](handouts/megacorp-01.cap): packet capture file of a wireless handshake
 
 **Requirements**: [hashcat](https://hashcat.net/hashcat), [cap2hashcat], [rockyou.txt](https://downloads.skullsecurity.org/passwords/rockyou.txt.bz2), [hash-identification]
-
 **Solution Files**: [hashes.hc22000](hashes.hc22000)
+**TL;DR**: Crack WPA hash for password.
 
 As the description explains, we need to crack the password (most likely a WPA/WPA2 password). Digging around the internet, I found guides like [this](https://securitytutorials.co.uk/how-to-capture-crack-wpa-wpa2-wireless-passwords), but the general idea is to extract the hash from the [pcap file](https://en.wikipedia.org/wiki/Pcap), then crack the hash with hashcat.
 

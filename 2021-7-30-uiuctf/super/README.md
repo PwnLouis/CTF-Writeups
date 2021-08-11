@@ -5,13 +5,12 @@
 > Hint 2: The file is encrypted with a repeating XOR cipher
 
 **Category**: forensics
-
 **Given**: 
 - [SUPERHOT](handouts/SUPERHOT): A binary file
 
 **Requirements**: Python, [VirtualBox]
-
 **Solution Files**: [decrypt.py](decrypt.py)
+**TL;DR**: Decrypt XOR with obvious key, load DOS disk image in VirtualBox, undelete executable and run it.
 
 ### Overview
 The challenge title & description does not hint to much, which is one reason I didn't bother tackling this challenge until I read the hints, which was released a bit later. Primarily, hint 2 is what got me started on this challenge. 
