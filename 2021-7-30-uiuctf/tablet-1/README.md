@@ -6,11 +6,14 @@
 <br>MD5: f629eec128551cfd69a906e7a29dc162
 
 **Category**: forensics
+
 **Given**: 
 - [tablet.tar.gz](https://drive.google.com/file/d/1KcRzBZRA1VbuyzR6fVaibLgJQ11dD737/view): Tablet filesystem ([mirror 1](https://www.dropbox.com/s/1m7n1pyvq6xgwfb/tablet.tar.gz?dl=0), [mirror 2](https://mega.nz/file/9sFwjRiL#VdiMK50ION61Ll3O583TrQ3nqpxfMsM-hLXtUrUtfYU))
 
 **Requirements**: [DB Browser for SQLite](https://sqlitebrowser.org/), an SSH client
+
 **Solution Files**: N/A
+
 **TL;DR**: Find SSH application database, get credentials, locate image with flag on server.
 
 ### Overview

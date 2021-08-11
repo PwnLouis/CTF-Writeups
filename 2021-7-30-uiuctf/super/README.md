@@ -5,11 +5,14 @@
 > Hint 2: The file is encrypted with a repeating XOR cipher
 
 **Category**: forensics
+
 **Given**: 
 - [SUPERHOT](handouts/SUPERHOT): A binary file
 
 **Requirements**: Python, [VirtualBox]
+
 **Solution Files**: [decrypt.py](decrypt.py)
+
 **TL;DR**: Decrypt XOR with obvious key, load DOS disk image in VirtualBox, undelete executable and run it.
 
 ### Overview

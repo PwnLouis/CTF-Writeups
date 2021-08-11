@@ -4,11 +4,14 @@
 Note: this chal is not actually broken, just thought it would be a funny joke
 
 **Category**: jail
+
 **Given**: 
 - [challenge.py](handouts/challenge.py): Challenge script
 
 **Requirements**: Python
+
 **Solution Files**: N/A
+
 **TL;DR**: Lowercase import, override `exit` with `code.interact`, spawning a REPL prompt.
 
 ### Overview

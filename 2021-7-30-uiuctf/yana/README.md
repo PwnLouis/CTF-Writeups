@@ -3,11 +3,14 @@
 > I made a note taking website. Can you get the admin's note?
 
 **Category**: web
+
 **Given**: 
 - [bot.js](handouts/bot.js): Admin bot source code
 
 **Requirements**: N/A
+
 **Solution Files**: N/A
+
 **TL;DR**: Cache exfiltration with by timing cache hits.
 
 ### Overview

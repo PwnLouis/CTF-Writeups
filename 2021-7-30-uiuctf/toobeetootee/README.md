@@ -3,12 +3,15 @@
 > Oh no! the infamous popbob hacked into my Minetest server, griefed my house, and tampered with the flag! Luckily, I was running a network capture at the time. Can you help me rollback the damage?
 
 **Category**: forensics
+
 **Given**: 
 - [toobeetootee.pcap](handouts/toobeetootee.pcap): packet capture (henceforth referred to as "pcap") file between server & client
 - [world.zip](handouts/world.zip): The Minetest world on the server
 
 **Requirements**: Python, [pyshark](https://github.com/KimiNewt/pyshark), [Minetest](https://www.minetest.net), [Wireshark](https://www.wireshark.org)
+
 **Solution Files**: [parse.py](parse.py), [revertchanges/init.lua](revertchanges/init.lua), [revertchanges/mod.conf](revertchanges/mod.conf)
+
 **TL;DR**: Parse packets, find block place & break events, undo changes with Minetest mod.
 
 ### Overview

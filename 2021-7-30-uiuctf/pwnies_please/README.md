@@ -3,12 +3,15 @@
 > Disguise these pwnies to get the flag!
 
 **Category**: misc
+
 **Given**: 
 - [web.py](handouts/web.py): The backend code
 - [pwny_cifar_eps_0.pth](handouts/pwny_cifar_eps_0.pth): ML model
 
 **Requirements**: Python, flask, sqlalchemy, PyTorch, pillow, ImageHash, simplekv, numpy, werkzeug
+
 **Solution Files**: N/A
+
 **TL;DR**: Use model gradient to increase loss till an acceptable level.
 
 ### Overview

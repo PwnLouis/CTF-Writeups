@@ -4,11 +4,14 @@
 <br>NOTE: Both Tablet challenges use the same file, which can be downloaded from Tablet 1.
 
 **Category**: forensics
+
 **Given**: 
-- [tablet.tar.gz](../tablet-1/handouts/tablet.tar.gz): Tablet filesystem
+- [tablet.tar.gz](https://drive.google.com/file/d/1KcRzBZRA1VbuyzR6fVaibLgJQ11dD737/view): Tablet filesystem ([mirror 1](https://www.dropbox.com/s/1m7n1pyvq6xgwfb/tablet.tar.gz?dl=0), [mirror 2](https://mega.nz/file/9sFwjRiL#VdiMK50ION61Ll3O583TrQ3nqpxfMsM-hLXtUrUtfYU))
 
 **Requirements**: [DB Browser for SQLite](https://sqlitebrowser.org/), [Apple Cloud Notes Parser](https://github.com/threeplanetssoftware/apple_cloud_notes_parser)
+
 **Solution Files**: N/A
+
 **TL;DR**: Locate SMS messages, locate Discord cache database, find Apple Notes database, decrypt with tool.
 
 ### Overview

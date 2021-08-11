@@ -3,11 +3,14 @@
 > whoops, I made a typo on the other chal. it's probably impossible, right? Python version is 3.8.10 and flag is at /flag
 
 **Category**: jail
+
 **Given**: 
 - [challenge.py](handouts/challenge.py): Challenge script
 
 **Requirements**: Python
+
 **Solution Files**: N/A
+
 **TL;DR**: Exploit Python unicode normalization to sneak lowercase characters.
 
 ### Overview

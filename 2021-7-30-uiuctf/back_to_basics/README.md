@@ -3,11 +3,13 @@
 > Shoutout to those people who think that base64 is proper encryption
 
 **Category**: crypto
+
 **Given**: 
 - [flag_enc](handouts/flag_enc) - encoded flag file
 - [main.py] - script used to encode the flag file
 
 **Requirements**: Python, [pycryptodome](https://pycryptodome.readthedocs.io/en/latest), [gmpy2](https://gmpy2.readthedocs.io/en/latest) (Windows wheels [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/#gmpy))
+
 **Solution Files**: [solve.py](solve.py)
 
 **TL;DR**: Bruteforce multiple base n decodes until flag string is found.
